@@ -34,7 +34,7 @@ behaviors:
           memory: null
           goal_conditioning_type: hyper
           deterministic: false
-    init_path: results\MoveToGoal02\MoveToGoal\checkpoint.pt
+    init_path: results\MoveToGoal04\MoveToGoal\checkpoint.pt
     keep_checkpoints: 5
     checkpoint_interval: 500000
     max_steps: 500000
@@ -63,8 +63,8 @@ engine_settings:
   no_graphics: false
 environment_parameters: null
 checkpoint_settings:
-  run_id: MoveToGoal03
-  initialize_from: MoveToGoal02
+  run_id: MoveToGoal05
+  initialize_from: MoveToGoal04
   load_model: false
   resume: false
   force: false
